@@ -1,0 +1,135 @@
+.popup-modal .modal-dialog {
+  max-width: 800px !important;
+  border-radius: 0 !important;
+}
+
+.popup-modal img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.popup-modal .modal-content {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.popup-modal .modal-body {
+  position: relative;
+}
+
+.popup-modal .modal-body button.colse {
+  position: absolute !important;
+  background: #000 !important;
+  opacity: 1 !important;
+}
+
+.popup-modal .modal-body .content {
+  padding: 30px;
+}
+
+.popup-modal .modal-body .content .content-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.popup-modal .modal-body .content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #777;
+  font-weight: 400;
+}
+
+.popup-modal .modal-body .content .popup-content-btn {
+  background: #ed5e4f;
+  color: #fff;
+  border-radius: 50px;
+  min-width: 150px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.popup-modal .modal-left{
+  position: relative;
+}
+.popup-modal .modal-left .tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #076ca1;
+  color: #fff;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+}
+
+button.close:hover,
+button.close{
+  opacity: 1 !important;
+}
+button.close span:hover,
+button.close span{
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  background: #fff;
+  top: -15px;
+  right: -15px;
+  height: 30px;
+  width: 30px;
+  opacity: 1 !important;
+  color: #202020;
+  border-radius: 30px;
+}
+
+.modal-avater img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+.author-content{
+  padding-left: 10px;
+}
+.author-content p,
+.author-content h4{
+  margin: 0;
+}
+.author-content h4{
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.popup-option-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+}
+.popup-option-list li:not(:last-child){
+  margin-right: 10px;
+}
+.popup-option-list li img{
+  width: 20px;
+  height: 20px;
+}
+@media screen and (min-width: 768px){
+  .modal-dialog {
+    min-width: 800px;
+  }
+}
+.modal-avater {
+  width: 60px;
+}
